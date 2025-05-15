@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- condition: database.enabled
+  name: mysql
+  repository: https://regression-charts.run.dev.rafay-edge.net/charts
+  version: 9.12.1
+description: A Helm chart for Kubernetes
+name: app
+type: application
+version: 0.1.5
