@@ -3,17 +3,17 @@ entries:
   app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-16T10:15:49.79418506Z"
+    created: "2025-05-16T10:22:08.246720605Z"
     dependencies:
     - condition: database.enabled
       name: mysql
       repository: https://regression-charts.run.dev.rafay-edge.net/charts
       version: 9.12.1
     description: A Helm chart for Kubernetes
-    digest: 34c77b57d1dba53c85fd4ea730fe9e3e5e68eaa812e11c181bd3391a0876945a
+    digest: cd2466c6a668c5708afb5487d2c57122c2af1b42d7a47032d262545c72b7024e
     name: app
     type: application
     urls:
     - https://dileepc-rafay.github.io/test-rafay-repo/app-0.1.22.tgz
     version: 0.1.22
-generated: "2025-05-16T10:15:49.790817287Z"
+generated: "2025-05-16T10:22:08.243560629Z"
